@@ -1,0 +1,103 @@
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dad0f2;
+    color: #333;
+}
+
+header {
+    background-color: #9261d1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-photo {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    background-color: #fff;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #a781d5;
+    color: white;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.schedule-table tr:hover {
+    background-color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #9b6cd4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
